@@ -1,0 +1,210 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.signup {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.Background-Auth {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.623);
+  z-index: 1;
+}
+
+.All-div {
+  position: relative;
+  z-index: 2;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0 15rem;
+  height: 100%;
+}
+
+.logo {
+  width: clamp(10vw, 17vw, 30vw);
+  margin-bottom: 5rem;
+}
+
+.All-div h1 {
+  font-size: clamp(0.9rem, 2vw, 4rem);
+  margin-bottom: 2rem;
+}
+
+.All-div p {
+  font-size: clamp(0.7rem, 1.5vw, 1.1rem);
+  line-height: 1.6;
+  max-width: 460px;
+}
+
+.All-div button {
+  width: 2.7vw;
+  height: 0.5vh;
+  border: none;
+  margin: 4rem 0.5rem;
+  color: rgba(255, 255, 255, 0.836);
+}
+
+
+
+.left-div {
+  position: absolute;
+  top: 8%;
+  right: 10%;
+  z-index: 2;
+  height: 92vh;
+  width: clamp(300px, 50vw, 450px);
+  background-color: #fff;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 2.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-div span {
+  color: #666;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.left-div h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  color: #000;
+}
+
+.form-create {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.form-create input {
+  padding: 0.9rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 0.95rem;
+  transition: 0.3s ease;
+}
+
+.form-create input:focus {
+  border-color: #ff6600;
+}
+
+.form-create button {
+  background-color: #ff6600;
+  color: rgb(10, 3, 3);
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  padding: 0.9rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+
+.form-create button:hover {
+  background-color: #e65700;
+}
+
+.form-create a{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+.or-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #888;
+  font-size: 0.9rem;
+  margin: 0.4rem 0;
+}
+
+.or-divider::before,
+.or-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: #ccc ;
+  margin: 0 10px;
+}
+
+.social-buttons {
+  display: flex;
+  flex-direction: column; 
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+.social-buttons button {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  gap: 10px; 
+  padding: 12px 18px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  font-weight: 500;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  width: 100%;
+}
+
+.social-buttons button:hover {
+  background-color: #f7f7f7;
+  transform: translateY(-2px);
+}
+
+.social-buttons img,
+.social-buttons i {
+  width: 20px;
+  height: 20px;
+}
+
+.google-btn {
+  border: 1px solid #dadce0;
+}
+
+.facebook-btn {
+  background-color: #1877f2;
+  color: #fff;
+  border: none;
+}
+
+.apple{
+margin-right: 1rem;
+}
+
