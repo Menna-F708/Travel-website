@@ -315,12 +315,12 @@ hr {
 
 .card .card-text {
   margin-top: -18px;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
 }
 .text-icon-rating .fa-star {
   color: #ec6408;
-  font-size: 1.1rem;
-  margin-left: -200px;
+  font-size: 1rem;
+  margin-left: -260px;
 }
 
 .rate {
@@ -493,10 +493,8 @@ hr {
   top: -15px;
 }
 
-.card .card-text {
-  margin-top: -18px;
-  color: #8d8c8c;
-}
+
+
 .text-icon-rating .fa-star {
   color: #ec6408;
   font-size: 1.1rem;
@@ -1134,9 +1132,7 @@ hr {
   .text-icon-rating .fa-star {
     margin-left: -170px;
   }
-  .card-body .card-text {
-    font-size: 0.8rem;
-  }
+
   /* Ask section  */
   .frq {
     margin: 2rem 0;
