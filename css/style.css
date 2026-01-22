@@ -309,18 +309,25 @@ hr {
 
 .cards .card .card-text {
   margin-top: -18px;
-    width: 15vw;
-  min-width: 250px;
-  font-size: 0.73em;
+  width: 100%;
+  min-width: unset;
+  font-size: 0.85rem;
   color: #333;
-  overflow: hidden;
-
 }
+
+
+
+.text-icon-rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .cards .text-icon-rating .fa-star {
   color: #ec6408;
-  font-size: 1rem;
-  margin-left: -260px;
+  margin-left: 0;
 }
+
 
 .cards .card .rate {
   color: black !important;
