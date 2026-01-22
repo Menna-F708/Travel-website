@@ -309,7 +309,11 @@ hr {
 
 .cards .card .card-text {
   margin-top: -18px;
-  font-size: 0.6rem;
+    width: 15vw;
+  min-width: 250px;
+  font-size: 0.73em;
+  color: #333;
+
 }
 .cards .text-icon-rating .fa-star {
   color: #ec6408;
