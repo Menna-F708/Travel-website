@@ -296,34 +296,28 @@ hr {
   bottom: 14px;
   width: 21vw;
 }
-.card p {
-  width: 22vw;
-  min-width: 300px;
-  font-size: 0.73em;
-  color: #333;
-  flex: 1;
-}
-.card .read {
+
+.cards .card .read {
   color: #ec6408;
   font-weight: 700;
 }
 
-.card .card-body {
+.cards .card .card-body {
   position: relative;
   top: -15px;
 }
 
-.card .card-text {
+.cards .card .card-text {
   margin-top: -18px;
   font-size: 0.6rem;
 }
-.text-icon-rating .fa-star {
+.cards .text-icon-rating .fa-star {
   color: #ec6408;
   font-size: 1rem;
   margin-left: -260px;
 }
 
-.rate {
+.cards .card .rate {
   color: black !important;
   font-weight: 600;
 }
