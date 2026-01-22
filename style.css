@@ -915,7 +915,7 @@ hr {
 /* ===============================
              DESKTOP 
 ================================ */
-@media (min-width: 1200px) and (max-width:1700px) {
+@media (min-width: 1200px) and (max-width:1650px) {
   /* ===============================
             Navbar
 ================================ */
@@ -1033,7 +1033,11 @@ hr {
   }
 
   .hero-text-p {
-    max-width: 1100px;
+    max-width: 900px;
+  }
+
+  .hero-text-p p{
+    font-size: 1rem;
   }
   /* Section Two (Discover Section)  */
   .discover-section h2 {
