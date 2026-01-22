@@ -31,10 +31,11 @@ body{
   padding: 1rem;
   position: relative;
   z-index: 100;
+  margin: 0 1.3rem;
 }
 
 .navbar .logo img {
-  width: 30vw;
+  width: 25vw;
 }
 .navbar .nav-links {
   display: none;
@@ -169,6 +170,7 @@ body{
   background: transparent;
   color: #333;
   width: 100%;
+  text-overflow: ellipsis;
 }
 
 .search-field input::placeholder {
@@ -383,7 +385,7 @@ hr {
 }
 
 .texxt-div p {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 .number-div {
@@ -721,7 +723,7 @@ hr {
 /* ===============================
              TABLET
 ================================ */
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width:1200px) {
   /* ===============================
             Navbar
 ================================ */
@@ -913,7 +915,7 @@ hr {
 /* ===============================
              DESKTOP 
 ================================ */
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width:1700px) {
   /* ===============================
             Navbar
 ================================ */
