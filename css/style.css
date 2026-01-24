@@ -296,10 +296,13 @@ body {
 .cards .cards-card-1 .card-body-1 .card-text-1 {
   width: 100%;
   margin: 0 auto;
-  color: #000000;
+  color: #000000cc;
+  font-style: 400;
+  font-size: 1rem;
 }
 .cards .cards-card-1 .card-body-1 .card-text-1 span {
   color: #ec6408;
+  font-weight: 600;
 }
 
 /* Back and Next page (Buttons)  */
@@ -462,6 +465,7 @@ body {
 
 .customer .cards-card-2 .card-body-2 .card-text-2 {
   text-align: center;
+  font-size: 1rem;
 }
 
 .customer .cards-card-2 .card-body-2 .text-icon-rating-2 .div-rating-2 i {
