@@ -1149,10 +1149,7 @@ body {
     width: calc(33.333% - 1.5rem);
   }
 
-  .cards .card {
-    flex: 0 0 calc(33.333% - 2rem);
-    max-width: calc(33.333% - 2rem);
-  }
+  
   /* Back and Next page (Buttons)  */
   .back-next {
     margin-top: 3rem;
